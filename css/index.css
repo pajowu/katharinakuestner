@@ -1,0 +1,27 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 4vh;
+}
+#content {
+	position: fixed;
+	background-color: #ccc;
+	top: 10vh;
+	bottom: 10vh;
+	left: 10vw;
+	right: 10vw;
+	padding-left: calc(100%/3);
+}
+#vcard {
+	position: absolute;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	font-weight: 300;
+}
+#heading {
+	margin-bottom: 2em;
+	color: #aa1e22;
+	font-weight: 700;
+}
+#name, #address, #contact {
+	margin-bottom: 0.75em;
+}
