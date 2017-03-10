@@ -1,14 +1,14 @@
 body {
 	font-family: 'Roboto', sans-serif;
-	font-size: 4vh;
+	/*font-size: 2vh;*/
 }
 #content {
 	position: fixed;
 	background-color: #ccc;
-	top: 10vh;
-	bottom: 10vh;
-	left: 10vw;
-	right: 10vw;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	padding-left: calc(100%/3);
 }
 #vcard {
@@ -20,7 +20,7 @@ body {
 #heading {
 	margin-bottom: 2em;
 	color: #aa1e22;
-	font-weight: 700;
+	font-weight: 500;
 }
 #name, #address, #contact {
 	margin-bottom: 0.75em;
