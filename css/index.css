@@ -25,3 +25,10 @@ body {
 #name, #address, #contact {
 	margin-bottom: 0.75em;
 }
+
+@media screen and (orientation: portrait) {
+	body {
+		font-size: 2vh;
+	}
+	
+}
